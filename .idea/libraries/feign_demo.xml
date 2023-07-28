@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="feign-demo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/feign-demo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

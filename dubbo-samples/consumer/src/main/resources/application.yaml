@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: consumer
+server:
+  port: 8081
+demo:
+  service:
+    version: ${PROVIDER_VERSION}
+    url: dubbo://${PROVIDER_HOST}:${PROVIDER_PORT}

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: provider
+dubbo:
+  scan:
+    base-packages: com.jdcloud.jmsf.dubbo.sample.provider.service
+
+  protocol:
+    name: dubbo
+    port: ${PROVIDER_PORT:20880}
+  registry:
+    address: N/A
+demo:
+  service:
+    version: 1.0.0
